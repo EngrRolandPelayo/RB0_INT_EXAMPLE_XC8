@@ -1,0 +1,301 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"254 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+"277
+[v _ldexp ldexp `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"18 C:\Users\Roland Pelayo\MPLABXProjects\RB0_INT_EXAMPLE_XC.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"36
+[v _enableExtInterrupt enableExtInterrupt `(v  1 e 1 0 ]
+"41
+[v _setupPorts setupPorts `(v  1 e 1 0 ]
+"47
+[v _flashLEDs flashLEDs `(v  1 e 1 0 ]
+"56
+[v _ISR ISR `II(v  1 e 1 0 ]
+"340 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2599
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"2605
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2704
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2935
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"2959
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1080 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"18 C:\Users\Roland Pelayo\MPLABXProjects\RB0_INT_EXAMPLE_XC.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"28
+[v main@j j `i  1 a 2 69 ]
+"34
+} 0
+"41
+[v _setupPorts setupPorts `(v  1 e 1 0 ]
+{
+"45
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 4 0 ]
+{
+"8
+[v pow@yi yi `ul  1 a 4 54 ]
+"7
+[v pow@sign sign `uc  1 a 1 53 ]
+"5
+[v pow@x x `d  1 p 4 36 ]
+[v pow@y y `d  1 p 4 40 ]
+"31
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 4 0 ]
+{
+"7
+[v log@exponent exponent `i  1 a 2 20 ]
+"5
+[v log@x x `d  1 p 4 16 ]
+"9
+[v log@coeff coeff `DC[9]d  1 s 36 coeff ]
+"36
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 4 0 ]
+{
+"14
+[v exp@exponent exponent `i  1 a 2 33 ]
+"15
+[v exp@sign sign `uc  1 a 1 35 ]
+"12
+[v exp@x x `d  1 p 4 24 ]
+"17
+[v exp@coeff coeff `DC[10]d  1 s 40 coeff ]
+"57
+} 0
+"277 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _ldexp ldexp `(d  1 e 4 0 ]
+{
+[v ldexp@value value `d  1 p 4 16 ]
+[v ldexp@newexp newexp `i  1 p 2 20 ]
+"307
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+{
+"15
+[v floor@i i `d  1 a 4 4 ]
+"16
+[v floor@expon expon `i  1 a 2 8 ]
+"13
+[v floor@x x `d  1 p 4 0 ]
+"30
+} 0
+"254 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+{
+[v frexp@value value `d  1 p 4 26 ]
+[v frexp@eptr eptr `*.4i  1 p 1 30 ]
+"274
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 14 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 18 ]
+"12
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 24 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 23 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 14 ]
+"70
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 4 12 ]
+"4
+[v eval_poly@x x `d  1 p 4 0 ]
+[v eval_poly@d d `*.24DCd  1 p 1 4 ]
+[v eval_poly@n n `i  1 p 2 5 ]
+"12
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S364 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S369 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S372 . 4 `l 1 i 4 0 `d 1 f 4 0 `S364 1 fAsBytes 4 0 `S369 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S372  1 a 4 53 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 47 ]
+[s S441 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S444 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S441 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S444  1 a 2 57 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 52 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 51 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 46 ]
+"8
+[v ___flmul@b b `d  1 p 4 33 ]
+[v ___flmul@a a `d  1 p 4 37 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"242 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 0 ]
+[v ___flsub@b b `d  1 p 4 4 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 78 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 77 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 76 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 75 ]
+"10
+[v ___fladd@b b `d  1 p 4 59 ]
+[v ___fladd@a a `d  1 p 4 63 ]
+"237
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 18 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"47 C:\Users\Roland Pelayo\MPLABXProjects\RB0_INT_EXAMPLE_XC.X\main.c
+[v _flashLEDs flashLEDs `(v  1 e 1 0 ]
+{
+"48
+[v flashLEDs@i i `i  1 a 2 3 ]
+"54
+} 0
+"36
+[v _enableExtInterrupt enableExtInterrupt `(v  1 e 1 0 ]
+{
+"39
+} 0
+"56
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"59
+[v ISR@i i `i  1 a 2 6 ]
+"69
+} 0
